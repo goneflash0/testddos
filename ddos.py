@@ -6,7 +6,7 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 
 # Telegram Bot token
-TELEGRAM_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"  # Замените на ваш токен от BotFather
+TELEGRAM_TOKEN = "7876025147:AAHaGOLsjaiKFxKOVjdyRYP-GbfD83kfPXA"  # Замените на ваш токен от BotFather
 
 # Глобальные переменные для управления атакой
 stop_attack = False
